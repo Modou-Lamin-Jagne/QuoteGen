@@ -39,3 +39,11 @@ body{
   border-radius: 2rem;
   height:auto;
 }
+
+#footer{
+  position: relative;
+  background-color: rgb(93, 211, 251);
+  border-radius: 1rem;
+  display: flex;
+
+}
