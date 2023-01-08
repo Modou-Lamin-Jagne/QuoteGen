@@ -1,6 +1,10 @@
 body{
   background-color: rgb(127, 190, 224);
   /* background-color: rgb(117, 140, 211); */
+  /* height: auto; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .button {
@@ -41,9 +45,110 @@ body{
 }
 
 #footer{
-  position: relative;
+  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; 
   background-color: rgb(93, 211, 251);
-  border-radius: 1rem;
+  height: auto;
+  width: 100%;
+  font-family: 'Open Sans';
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3{
+font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a svg{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover{
+  color: aqua;
+}
+
+.copy{
+  background:rgb(56, 205, 254);
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.copy p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform:capitalize;
+}
+
+.copy span{
+  text-transform: uppercase;
+  opacity: .7;
+  font-weight: 200;
+}
+
+/* .owner{
+  
+}
+
+.contact{
 
 }
+
+.socials{
+  position: left;
+} */
+
+
+
+
+/* 9rem;
+  border-radius: 5px;  */
+  /* display: grid; */
+  /* height: 10vh; */
+  /* align-items:flex-end; */
+
+  /* display: flex;
+  align-items: center;
+
+  justify-content: center;
+  padding-right: 16px;
+  flex-wrap: wrap;  */
