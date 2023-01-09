@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(127, 190, 224);
+  background-color: rgb(51, 203, 254);
   /* background-color: rgb(117, 140, 211); */
   /* height: auto; */
   margin: 0;
@@ -8,15 +8,16 @@ body{
 }
 
 .button {
-  background-color: #2696bf; /* Green */
+  background-color: rgb(56, 191, 236); /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 16px;
   border-radius: 2rem;
+  margin-top: 10rem;
 }
 
 .quote {
@@ -39,13 +40,13 @@ body{
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: rgb(113, 162, 195);
-  border-radius: 2rem;
-  height:auto;
+  background-color: rgb(93, 211, 251);
+  border-radius: 1rem;
+  height: 20rem;
 }
 
 #footer{
-  
+  border-radius: 1rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -54,7 +55,7 @@ body{
   height: auto;
   width: 100%;
   font-family: 'Open Sans';
-  padding-top: 40px;
+  padding-top: 0;
   color: #fff;
 }
 
@@ -64,14 +65,22 @@ body{
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  height: 9rem;
 }
 
 .footer-content h3{
-font-size: 1.8rem;
-font-weight: 400;
-text-transform: capitalize;
-line-height: 3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  padding-top: 15px;
+  color: aqua;
+  /* transition: color .4s ease; */
 }
+
+/* .footer-content h3:hover{
+  color: #fff;
+} */
 
 .footer-content p{
   max-width: 500px;
@@ -117,6 +126,11 @@ line-height: 3rem;
   font-size: 14px;
   word-spacing: 2px;
   text-transform:capitalize;
+  bottom: 10;
+  border-radius: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* margin: 1rem 0 1rem 0; */
 }
 
 .copy span{
