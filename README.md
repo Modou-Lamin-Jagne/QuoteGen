@@ -7,3 +7,5 @@ It didn't come exactly how I wanted it but it was really amazing. So I decided t
 
 It is built purely with HTML, CSS and JavaScript and some Bootstrap.
 To get the app all you need to do is to clone the repo or download the zip file.
+
+Enjoy the hacking😉
