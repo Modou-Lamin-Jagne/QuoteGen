@@ -24,6 +24,10 @@ const quotes = [
   {
     quote: "Education is not the learning of facts, but the training of the mind tp think",
     author: 'Albert Einstein'
+  },
+  {
+    quote: "Learning never exhausts the mind",
+    author:'Leonardo da Vinci'
   }
 ];
 
