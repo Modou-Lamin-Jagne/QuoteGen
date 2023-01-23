@@ -28,6 +28,10 @@ const quotes = [
   {
     quote: "Learning never exhausts the mind",
     author:'Leonardo da Vinci'
+  },
+  {
+    quote: "Education is the most powerful weapon which you can use to change the world.",
+    author:'Nelson Mandela'
   }
 ];
 
