@@ -21,6 +21,10 @@ const quotes = [
     quote: 'Technology has the shelf life of a banana.',
     author: 'Bill Gates',
   },
+  {
+    quote: "Education is not the learning of facts, but the training of the mind tp think",
+    author: 'Albert Einstein'
+  }
 ];
 
 function getNewQuote() {
